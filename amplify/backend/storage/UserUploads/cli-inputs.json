@@ -1,0 +1,12 @@
+{
+  "resourceName": "UserUploads",
+  "policyUUID": "6b0102fc",
+  "bucketName": "app-user-uploads-textract",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
