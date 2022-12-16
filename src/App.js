@@ -63,7 +63,7 @@ const App = () => {
       {uploaded && <p style={{color: "green"}}>
         Upload Successfull!</p>}
       
-      <button onClick={async()=>{
+      <button style={{position:"absolute", right:"0", top:"0"}} onClick={async()=>{
         await Auth.signOut()
       }}>Sign Out</button>
 
